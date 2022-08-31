@@ -1,5 +1,6 @@
 ## BoBeenLee
 
+[![npm version](https://badge.fury.io/js/bobeenlee.svg)](https://badge.fury.io/js/bobeenlee)
 [![custom badge](https://img.shields.io/badge/introduce-myself-orange)](https://img.shields.io/badge/introduce-myself-orange)
 [![bobeenlee about](https://img.shields.io/badge/about-bobeen-blue)](https://bbl-nx.vercel.app/)
 
