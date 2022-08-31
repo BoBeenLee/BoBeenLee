@@ -1,0 +1,54 @@
+{
+  "name": "bobeenlee",
+  "version": "1.0.0",
+  "description": "BoBeenLee CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "bobeenlee": "./bin/run"
+  },
+  "files": [
+    "/bin",
+    "dist/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "./bin/run",
+    "prebuild": "rm -rf lib",
+    "build": "tsc -b",
+    "lint": "eslint . --ext .tsx -c .eslintrc.js",
+    "release": "npm run build && auto shipit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoBeenLee/BoBeenLee.git"
+  },
+  "keywords": [
+    "bobeenlee",
+    "react",
+    "typescript",
+    "ink"
+  ],
+  "author": "BoBeenLee <globaldev@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoBeenLee/BoBeenLee/issues"
+  },
+  "homepage": "https://github.com/BoBeenLee/BoBeenLee#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "ink": "^3.2.0",
+    "react": "^18.2.0",
+    "typescript": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "auto": "^10.37.4",
+    "eslint": "^8.23.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
