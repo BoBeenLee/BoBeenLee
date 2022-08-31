@@ -1,6 +1,6 @@
 {
   "name": "bobeenlee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BoBeenLee CLI",
   "main": "dist/index.js",
   "bin": {
